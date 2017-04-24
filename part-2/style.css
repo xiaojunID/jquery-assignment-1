@@ -1,0 +1,37 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    width: 700px;
+    margin: 44px auto;
+}
+
+.box,
+.clicked {
+    width: 44px;
+    height: 44px;
+    margin: 2px;
+    float: left;
+    cursor: pointer;
+}
+
+.clicked {
+    width: 20px;
+    height: 20px;
+    margin: 14px;
+    cursor: cell;
+}
+
+.type-1 {
+    background-color: #00F;
+}
+
+.type-1.clicked {
+    border-radius: 20px;
+}
+
+.type-2 {
+    background-color: #F00;
+}
